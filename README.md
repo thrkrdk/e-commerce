@@ -6,11 +6,12 @@
 - [x] Add Fonts
 - [X] Add Router
 - [ ] Authentication + Firebase
+  - [x] Install and Setup Firebase
+  - [x] Sign in  With Google Account
+  - [ ] Sign In and Sign Up
+  - [ ] Authentication
 - [ ] React Context For State Management
 - [ ] Firabase Database Operations
-  - [x] Install and Setup Firebase
-  - [x] Login With Google Account
-  - [ ] Database
 - [ ] Reducers
 - [ ] Reduxs
 - [ ] Stripe for Payment
