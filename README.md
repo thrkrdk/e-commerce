@@ -6,7 +6,7 @@
 - [x] Add Fonts
 - [ ] Add Router
 - [ ] Authentication + Firebase
-- [ ] React Context State Management
+- [ ] React Context For State Management
 - [ ] Firabase Database Operations
 - [ ] Reducers
 - [ ] Reduxs
