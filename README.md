@@ -4,7 +4,7 @@
 - [x] Project Structure (+)
 - [x] Add Sass and Style files
 - [x] Add Fonts
-- [ ] Add Router
+- [X] Add Router
 - [ ] Authentication + Firebase
 - [ ] React Context For State Management
 - [ ] Firabase Database Operations
