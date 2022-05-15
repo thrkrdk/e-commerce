@@ -8,6 +8,9 @@
 - [ ] Authentication + Firebase
 - [ ] React Context For State Management
 - [ ] Firabase Database Operations
+  - [x] Install and Setup Firebase
+  - [x] Login With Google Account
+  - [ ] Database
 - [ ] Reducers
 - [ ] Reduxs
 - [ ] Stripe for Payment
