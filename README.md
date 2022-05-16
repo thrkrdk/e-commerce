@@ -5,11 +5,11 @@
 - [x] Add Sass and Style files
 - [x] Add Fonts
 - [X] Add Router
-- [ ] Authentication + Firebase
+- [x ] Authentication + Firebase
   - [x] Install and Setup Firebase
   - [x] Sign in  With Google Account
-  - [ ] Sign In and Sign Up
-  - [ ] Authentication
+  - [ x] Sign In and Sign Up Components
+  - [x ] Authentication
 - [ ] React Context For State Management
 - [ ] Firabase Database Operations
 - [ ] Reducers
