@@ -1,11 +1,11 @@
-import { wait } from "@testing-library/user-event/dist/utils";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import {
   createAuthUserWithEmailAndPassword,
   createUserDocumentFromAuth,
 } from "../../utils/firebase.utils";
 import Button from "../button.component/button.component";
 import FormInput from "../form-input/form-input.components";
+import { UserContext } from "../../contexts/user.context";
 
 import "./sign-up-form.styles.scss";
 
@@ -19,6 +19,8 @@ const defaultFormFileds = {
 const SignUpForm = () => {
   const [formFields, setFormFields] = useState(defaultFormFileds);
   const { displayName, email, password, confirmPassword } = formFields;
+
+  const { setCurrentUser } = useContext(UserContext);
 
   const resetFormFileds = () => {
     setFormFields(defaultFormFileds);
@@ -35,7 +37,8 @@ const SignUpForm = () => {
         email,
         password
       );
-      console.log(user);
+
+      setCurrentUser(user);
       await createUserDocumentFromAuth(user, { displayName });
       resetFormFileds();
     } catch (error) {
@@ -93,9 +96,7 @@ const SignUpForm = () => {
           value={confirmPassword}
         />
 
-        <Button  type="submit">
-          Sign Up
-        </Button>
+        <Button type="submit">Sign Up</Button>
       </form>
     </div>
   );
