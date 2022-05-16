@@ -12,9 +12,9 @@
   - [x] Sign in With Google Account
   - [x] Sign In and Sign Up Components
   - [x] Authentication
-- [ ] React Context For State Management
+- [x] React Context For State Management
   - [x] User Context
-  - [ ] Firebase auth state with user contex using Observe Pattern
+  - [x] Firebase auth state with user contex using Observe Pattern
   - [ ] Other Pages Context
     - [ ] Shop page
     - [ ] Product Card
