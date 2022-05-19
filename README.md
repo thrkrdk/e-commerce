@@ -26,6 +26,8 @@
   - [x] Get data from Firebase
   - [x] Add Child Routes
   - [x] Fixing Styles Problems (part-1)
+- [x] [Styed Component](https://styled-components.com/) added
+- [x] Netlify settings
 - [ ] Reducers
 - [ ] Redux
 - [ ] Stripe for Payment
