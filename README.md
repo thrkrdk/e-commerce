@@ -21,9 +21,11 @@
     - [x] Dropdown
     - [x] Cart Item
     - [x] Checkout
-- [ ] Firabase Database Operations
-  - [ ] Add categories to the Firebase
-  - [ ] Get data from Firebase
+- [x] Firabase Database Operations
+  - [x] Add categories to the Firebase
+  - [x] Get data from Firebase
+  - [x] Add Child Routes
+  - [x] Fixing Styles Problems (part-1)
 - [ ] Reducers
 - [ ] Redux
 - [ ] Stripe for Payment
