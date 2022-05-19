@@ -22,6 +22,8 @@
     - [x] Cart Item
     - [x] Checkout
 - [ ] Firabase Database Operations
+  - [ ] Add categories to the Firebase
+  - [ ] Get data from Firebase
 - [ ] Reducers
 - [ ] Redux
 - [ ] Stripe for Payment
