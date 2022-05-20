@@ -33,6 +33,8 @@
   - [x] Migrate Redux from Context
   - [x]  Memoized selector for avoiding unnecessary rerender.  [reselect](https://github.com/reduxjs/reselect)
   - [x] Custom Middleware (comment)
+  - [x] Redux Dev Tool
+  - [x] [redux-persist](https://github.com/rt2zz/redux-persist)
   - [ ] Thunk
   - [ ] Saga
 - [ ] Stripe for Payment
