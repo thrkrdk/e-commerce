@@ -28,7 +28,7 @@
   - [x] Fixing Styles Problems (part-1)
 - [x] [Styed Component](https://styled-components.com/) added
 - [x] Netlify settings
-- [ ] Reducers
+- [x] useReducer implementation
 - [ ] Redux
 - [ ] Stripe for Payment
 - [ ] Graphql Apollo Client

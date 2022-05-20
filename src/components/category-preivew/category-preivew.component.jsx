@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ProductCard from "../product-card/product-card.componet";
+import ProductCart from "../product-cart/product-cart.component";
 import "./category-preivew.styles.scss";
 
 const CategoryPreview = ({ title, products }) => {
@@ -14,7 +14,7 @@ const CategoryPreview = ({ title, products }) => {
         {products
           .filter((_, idx) => idx < 4)
           .map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCart key={product.id} product={product} />
           ))}
       </div>
     </div>

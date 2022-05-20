@@ -1,18 +1,24 @@
-import { Fragment, useContext, useState } from "react";
-import { Outlet, Link } from "react-router-dom";
-
+import { Fragment } from "react";
+import { useSelector } from "react-redux";
+import { Outlet } from "react-router-dom";
 import { ReactComponent as Logo } from "../../assets/crown.svg";
+import CartIcon from "../../components/cart-icon/cart-icon.component";
 import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component";
-import CardIcon from "../../components/card-icon/card-icon.component";
-import { UserContext } from "../../contexts/user.context";
+import { selectCurrentUser } from "../../store/user/user.selector";
 import { signOutUser } from "../../utils/firebase.utils";
-import { CartContext } from "../../contexts/cart.contex";
 
-import { LogoContainer, NavigationContainer, NavLink, NavLinks } from "./navigation.styles";
+import { selectIsCartOpen } from "../../store/cart/cart.selector";
+
+import {
+  LogoContainer,
+  NavigationContainer,
+  NavLink,
+  NavLinks,
+} from "./navigation.styles";
 
 const Navigation = () => {
-  const { currentUser } = useContext(UserContext);
-  const { isCartOpen } = useContext(CartContext);
+  const currentUser = useSelector(selectCurrentUser);
+  const isCartOpen = useSelector(selectIsCartOpen);
 
   return (
     <Fragment>
@@ -21,19 +27,15 @@ const Navigation = () => {
           <Logo className="logo" />
         </LogoContainer>
         <NavLinks>
-          <NavLink to="/shop">
-            Shop
-          </NavLink>
+          <NavLink to="/shop">Shop</NavLink>
           {currentUser ? (
-            <NavLink as= "span" onClick={signOutUser}>
+            <NavLink as="span" onClick={signOutUser}>
               SIGN OUT
             </NavLink>
           ) : (
-            <NavLink to="/auth">
-              Sign In
-            </NavLink>
+            <NavLink to="/auth">Sign In</NavLink>
           )}
-          <CardIcon />
+          <CartIcon />
         </NavLinks>
         {isCartOpen && <CartDropdown />}
       </NavigationContainer>
