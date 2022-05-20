@@ -29,7 +29,7 @@
 - [x] [Styed Component](https://styled-components.com/) 
 - [x] Netlify settings
 - [x] useReducer implementation
-- [] Redux
+- [ ] Redux
   - [x] Migrate Redux from Context
   - [x]  Memoized selector for avoiding unnecessary rerender.  [reselect](https://github.com/reduxjs/reselect)
   - [x] Custom Middleware (comment)
