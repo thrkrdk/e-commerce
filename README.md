@@ -35,7 +35,7 @@
   - [x] Custom Middleware (comment)
   - [x] Redux Dev Tool
   - [x] [redux-persist](https://github.com/rt2zz/redux-persist)
-  - [ ] Thunk
+  - [x] Thunk
   - [ ] Saga
 - [ ] Stripe for Payment
 - [ ] Graphql Apollo Client
