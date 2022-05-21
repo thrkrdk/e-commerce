@@ -26,17 +26,17 @@
   - [x] Get data from Firebase
   - [x] Add Child Routes
   - [x] Fixing Styles Problems (part-1)
-- [x] [Styed Component](https://styled-components.com/) 
+- [x] [Styed Component](https://styled-components.com/)
 - [x] Netlify settings
 - [x] useReducer implementation
-- [ ] Redux
+- [x] Redux
   - [x] Migrate Redux from Context
-  - [x]  Memoized selector for avoiding unnecessary rerender.  [reselect](https://github.com/reduxjs/reselect)
-  - [x] Custom Middleware (comment)
+  - [x] Memoized selector for avoiding unnecessary rerender. [reselect](https://github.com/reduxjs/reselect)
+  - [x] Custom Middleware
   - [x] Redux Dev Tool
   - [x] [redux-persist](https://github.com/rt2zz/redux-persist)
-  - [x] Thunk
-  - [ ] Saga
+  - [x] Thunk (exchanged with saga)
+  - [x] Saga
 - [ ] Stripe for Payment
 - [ ] Graphql Apollo Client
 - [ ] PWA
