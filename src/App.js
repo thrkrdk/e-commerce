@@ -7,8 +7,6 @@ import Home from "./routes/home/home.component";
 import Navigation from "./routes/navigation/navigation.component";
 import Shop from "./routes/shop/shop.compnent";
 import { checkUserSession } from "./store/user/user.action";
-import { getCurrentUser } from "./utils/firebase.utils";
-
 const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
