@@ -37,10 +37,10 @@
   - [x] [redux-persist](https://github.com/rt2zz/redux-persist)
   - [x] Thunk (exchanged with saga)
   - [x] Saga
-- [ ] Stripe for Payment
+- [x] Stripe for Payment and Netlify Serverless
+- [ ] Typescript
 - [ ] Graphql Apollo Client
 - [ ] PWA
-- [ ] Typescript
 - [ ] Others
   - [ ] Performance
   - [ ] Security
