@@ -39,7 +39,7 @@
   - [x] Saga
 - [x] Stripe for Payment and Netlify Serverless
 - [x] Typescript
-- [] Mobile Support 
+- [x] Mobile Support 
 - [ ] PWA
 - [ ] Others
   - [x] Performance
