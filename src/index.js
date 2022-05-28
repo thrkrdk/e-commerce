@@ -12,6 +12,8 @@ import { store, persistor } from "./store/store";
 import "./index.scss";
 import { stripePromise } from "./utils/stripe.util";
 
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -31,3 +33,4 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+serviceWorkerRegistration.register();
