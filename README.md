@@ -25,7 +25,7 @@
   - [x] Add categories to the Firebase
   - [x] Get data from Firebase
   - [x] Add Child Routes
-  - [x] Fixing Styles Problems 
+  - [x] Fixing Styles Problems
 - [x] [Styed Component](https://styled-components.com/)
 - [x] Netlify settings
 - [x] useReducer implementation
@@ -39,10 +39,10 @@
   - [x] Saga
 - [x] Stripe for Payment and Netlify Serverless
 - [x] Typescript
-- [ ] Graphql Apollo Client
+- [] Mobile Support 
 - [ ] PWA
 - [ ] Others
-  - [ ] Performance
+  - [x] Performance
   - [ ] Security
   - [ ] Webpack Babel Settings
 
