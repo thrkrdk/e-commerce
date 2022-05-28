@@ -40,7 +40,7 @@
 - [x] Stripe for Payment and Netlify Serverless
 - [x] Typescript
 - [x] Mobile Support 
-- [ ] PWA
+- [x] PWA
 - [ ] Others
   - [x] Performance
   - [ ] Security
